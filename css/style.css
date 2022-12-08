@@ -15,6 +15,9 @@ body {
 .u-center {
   text-align: center; }
 
+.mb-sm {
+  margin-bottom: 2rem; }
+
 .btn:link, .btn:visited {
   text-decoration: none;
   font-size: 1.4rem;
@@ -84,7 +87,23 @@ body {
   .hero__span--2 {
     font-size: 1.4rem;
     color: #777;
-    padding: .1rem 1.2rem;
+    border: none;
+    padding: .2px 2rem;
     position: absolute;
     left: 15rem;
     border-radius: 0 4px 4px 0; }
+  .hero__last {
+    float: right;
+    margin-right: 15rem;
+    color: #fff;
+    display: flex; }
+    .hero__last input {
+      border: 1px solid #FAFCFF;
+      outline: none;
+      background-color: transparent;
+      border-radius: 2px; }
+  .hero__paragraph {
+    margin-right: 2rem; }
+
+.budget {
+  padding: 10rem; }

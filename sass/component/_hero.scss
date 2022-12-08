@@ -36,11 +36,34 @@
     &__span--2 {
         font-size: 1.4rem;
         color: #777;
-        
-        padding: .1rem 1.2rem;
+        border: none;
+        padding: .2px 2rem;
         position: absolute;
         left: 15rem;
         border-radius: 0 4px 4px 0;
     }
+
+    &__last {
+        float: right;
+        margin-right: 15rem;
+        color: #fff;
+
+
+
+        display: flex;
+
+        &  input {
+            border: 1px solid $color-white;
+            outline: none;
+            background-color: transparent;
+            border-radius: 2px;
+        }
+    }
+
+    &__paragraph {
+        margin-right: 2rem;
+    }
+
+   
 
 }
