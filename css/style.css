@@ -18,6 +18,9 @@ body {
 .mb-sm {
   margin-bottom: 2rem; }
 
+.mb-tp {
+  margin-top: 2rem; }
+
 .btn:link, .btn:visited {
   text-decoration: none;
   font-size: 1.4rem;
@@ -122,7 +125,8 @@ body {
     text-align: center; }
 
 .category {
-  padding: 10rem 5rem; }
+  padding: 10rem 5rem;
+  position: relative; }
   .category__lit {
     display: flex;
     justify-content: space-between; }
@@ -138,4 +142,15 @@ body {
     display: flex;
     justify-content: space-around; }
   .category__paragraph {
-    text-align: center; }
+    text-align: center;
+    font-size: 1.3rem; }
+  .category__svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 55%;
+    cursor: pointer; }
+    .category__svg--1 {
+      left: 4rem; }
+    .category__svg--2 {
+      right: 4rem; }
