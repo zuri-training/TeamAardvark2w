@@ -1,0 +1,29 @@
+.category {
+    padding: 10rem 5rem;
+
+    &__lit {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__h2 {
+        font-family: Montserrat;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 44px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+    &__img {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__paragraph {
+        text-align: center;
+    }
+}
