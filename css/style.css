@@ -44,6 +44,56 @@ body {
   font-weight: 500;
   letter-spacing: 2px; }
 
+.signup {
+  padding: 10rem 5rem; }
+  .signup__overall {
+    width: 70rem;
+    margin: 0 auto;
+    text-align: center; }
+  .signup__h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: montserrat; }
+  .signup__h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem; }
+  .signup__paragraph {
+    font-size: 2rem; }
+  .signup__media {
+    margin: 6rem 0; }
+  .signup__svg {
+    width: 1.5rem;
+    height: 1.5rem; }
+  .signup__link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    border: 1px solid #182747;
+    border-radius: 3px;
+    padding: 1.6rem;
+    color: #182747;
+    text-align: center; }
+    .signup__link:not(:last-child) {
+      margin-right: 2rem; }
+  .signup__block {
+    width: 60rem;
+    margin: auto; }
+  .signup__sub {
+    width: 100%;
+    margin-bottom: 2rem; }
+  .signup__main {
+    display: flex;
+    align-items: center; }
+  .signup__main input {
+    margin-right: 1rem; }
+  .signup__label {
+    width: 10rem;
+    font-size: 1.6rem;
+    color: #182747; }
+  .signup__input {
+    width: 100%;
+    padding: 1rem 1rem;
+    outline: none; }
+
 .navigation {
   padding: 2rem 14% 2rem 4%;
   margin-top: 2rem;
