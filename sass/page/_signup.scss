@@ -61,10 +61,16 @@
    &__main {
       display: flex;
       align-items: center;
+      color: #070705;
+      font-size: 1.2rem;
    }
 
    &__main input {
        margin-right: 1rem;
+   }
+
+   &__main a {
+       text-decoration: none;
    }
 
    &__label {
@@ -78,5 +84,15 @@
       width: 100%;
       padding: 1rem 1rem;
       outline: none;
+   }
+
+   &__button {
+      width: 100%;
+      padding: 2rem;
+      background: #182747;
+      border-radius: 8px;
+      color:  #FFFFFE;
+      border: none;
+      cursor: pointer;
    }
 }

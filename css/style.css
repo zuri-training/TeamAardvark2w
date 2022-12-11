@@ -82,9 +82,13 @@ body {
     margin-bottom: 2rem; }
   .signup__main {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    color: #070705;
+    font-size: 1.2rem; }
   .signup__main input {
     margin-right: 1rem; }
+  .signup__main a {
+    text-decoration: none; }
   .signup__label {
     width: 10rem;
     font-size: 1.6rem;
@@ -93,6 +97,14 @@ body {
     width: 100%;
     padding: 1rem 1rem;
     outline: none; }
+  .signup__button {
+    width: 100%;
+    padding: 2rem;
+    background: #182747;
+    border-radius: 8px;
+    color: #FFFFFE;
+    border: none;
+    cursor: pointer; }
 
 .navigation {
   padding: 2rem 14% 2rem 4%;
