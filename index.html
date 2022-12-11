@@ -1,20 +1,16 @@
-{% load static %}
-{% static "images" as baseUrl %}
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <title>PRICE COMPARE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
     <main>
         <nav class="navigation">
-            <img src="{% static'image/web.jpg" alt="logo' %}" class="navigation__img" height="50rem">
+            <img src="image/web.jpg" alt="logo" class="navigation__img" height="50rem">
             <ul class="navigation__list">
                 <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
                 <li class="navigation__item"><a href="product.html" class="navigation__link">Product</a></li>
@@ -23,24 +19,13 @@
                 <li class="navigation__item"><a href="faqs.html" class="navigation__link">FAQ's</a></li>
             </ul>
             <div class="navigation__btn">
-
-                {% if user.is_authenticated %}
-
-                <a href="accounts/login" class="btn btn--2">hello, {{user.first_name}} </a>
-                <a href="accounts/logout"  class="btn btn--1">Logout</a>
-
-                {% else %}
-
-                <a href="accounts/login" class="btn btn--1">Login</a>
-                <a href="accounts/register" class="btn btn--2">Sign Up</a>
-
-                {% endif %}
-                
+                <a href="#" class="btn btn--1">Sign In</a>
+                <a href="signup.html" class="btn btn--2">Sign Up</a>
             </div>
         </nav>
 
         <section class="hero">
-            <img src="{% static 'image/Hero Image.png' %}" alt="hero" class="hero__img">
+            <img src="image/Hero Image.png" alt="hero" class="hero__img">
             <div class="hero__center">
                 <div class="u-center">
                     <h2 class="heading-2">Browse over a million products</h2>
@@ -83,23 +68,23 @@
             <div class="category__img">
                 <figure>
                     <p class="category__paragraph mb-sm">Phones and Accessories</p>
-                    <img src="{% static'image/Rectangle 175.png' %}" alt="">
+                    <img src="image/Rectangle 175.png" alt="">
                 </figure>
                 <figure>
                     <p class="category__paragraph mb-sm">Gadget</p>
-                    <img src="{% static 'image/Group 59.png' %}" alt="">
+                    <img src="image/Group 59.png" alt="">
                 </figure>
                 <figure>
                     <p class="category__paragraph mb-sm">Blender</p>
-                    <img src="{% static 'image/Group 60.png' %}" alt="">
+                    <img src="image/Group 60.png" alt="">
                 </figure>
             </div>
 
             <svg class="category__svg category__svg--1">
-                <use xlink:href="{% static 'image/sprite.svg#icon-chevron-small-left' %}"></use>
+                <use xlink:href="image/sprite.svg#icon-chevron-small-left"></use>
             </svg>
             <svg class="category__svg category__svg--2">
-                <use xlink:href="{% static 'image/sprite.svg#icon-chevron-small-righ' %}t"></use>
+                <use xlink:href="image/sprite.svg#icon-chevron-small-right"></use>
             </svg>
             
             
@@ -114,19 +99,19 @@
 
             <div class="category__img">
                 <figure>
-                    <img src="{% static 'image/Rectangle 191.png' %}" alt="" class="category__figure">
+                    <img src="image/Rectangle 191.png" alt="" class="category__figure">
                     <p class="category__paragraph mt-sm">Camera</p>
                 </figure>
                 <figure>
-                    <img src="{% static 'image/Rectangle 192.png' %}" alt="" class="category__figure">
+                    <img src="image/Rectangle 192.png" alt="" class="category__figure">
                     <p class="category__paragraph mt-sm">Electronics</p>
                 </figure>
                 <figure>
-                    <img src="{% static 'image/Rectangle 193.png' %}" alt="" class="category__figure">
+                    <img src="image/Rectangle 193.png" alt="" class="category__figure">
                     <p class="category__paragraph mt-sm">Furniture</p>
                 </figure>
                 <figure>
-                    <img src="{% static 'image/Rectangle 194.png' %}" alt="" class="category__figure">
+                    <img src="image/Rectangle 194.png" alt="" class="category__figure">
                     <p class="category__paragraph mt-sm">Health and Beauty</p>
                 </figure>
             </div>
@@ -137,19 +122,19 @@
 
             <div class="category__img">
                 <figure>
-                    <img src="{% static 'image/Rectangle 195.png' %}" alt="" class="category-1__figure">
+                    <img src="image/Rectangle 195.png" alt="" class="category-1__figure">
                     <p class="category__paragraph mt-sm">Camera</p>
                 </figure>
                 <figure>
-                    <img src="{% static 'image/Rectangle 196.png' %}" alt="" class="category-1__figure">
+                    <img src="image/Rectangle 196.png" alt="" class="category-1__figure">
                     <p class="category__paragraph mt-sm">Electronics</p>
                 </figure>
                 <figure>
-                    <img src="{% static 'image/Rectangle 197.png' %}" alt="" class="category-1__figure">
+                    <img src="image/Rectangle 197.png" alt="" class="category-1__figure">
                     <p class="category__paragraph mt-sm">Furniture</p>
                 </figure> 
                 <figure>
-                    <img src="{% static 'image/Rectangle 198.png' %}" alt="" class="category-1__figure">
+                    <img src="image/Rectangle 198.png" alt="" class="category-1__figure">
                     <p class="category__paragraph mt-sm">Health and Beauty</p>
                 </figure>
             </div>
@@ -164,23 +149,23 @@
 
             <div class="top__list">
                 <div>
-                    <img src="{% static 'image/Rectangle 190.png' %}" alt="" class="top__image">
+                    <img src="image/Rectangle 190.png" alt="" class="top__image">
                     <div class="top__item">
                         <p class="top__paragraph">2022 Luxury Bold Diamond Ring</p>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                     </div>
                     <div class="u-center">
@@ -190,23 +175,23 @@
                 </div>
 
                 <div>
-                    <img src="{% staic 'image/Rectangle 200.png' %}" alt="" class="top__image">
+                    <img src="image/Rectangle 200.png" alt="" class="top__image">
                     <div class="top__item">
                         <p class="top__paragraph">Super Quality Gold  Wristwatch for Men</p>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                     </div>
                     <div class="u-center">
@@ -215,23 +200,23 @@
                 </div>
 
                 <div>
-                    <img src="{% static 'image/Rectangle 202.png'}" alt="" class="top__image">
+                    <img src="image/Rectangle 202.png" alt="" class="top__image">
                     <div class="top__item">
                         <p class="top__paragraph">Built-In 620 Games Mini TV Game Console 8 Bit Classic</p>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                         <svg class="top__svg">
-                            <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
                         </svg>
                     </div>
                     <div class="u-center">
@@ -253,25 +238,25 @@
 
             <div class="sale__list">
                 <div class="sale__item">
-                    <img src="{% static 'image/Rectangle 212.png' %}" alt="1" class="sale__img">
+                    <img src="image/Rectangle 212.png" alt="1" class="sale__img">
                     <div class="sale__sub">
                         <p class="sale__paragraph">Maxi Generator, 1 kw / 1.25 kva, Gasoline, oil alret, 100% copper</p>
                         <div class="sale__price">
                             <div>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                             </div>
                             <p class="sale__naira">₦ 116,588</p>
@@ -280,25 +265,25 @@
                 </div>
 
                 <div class="sale__item">
-                    <img src="{% static 'image/Rectangle 213.png' %}" alt="1" class="sale__img">
+                    <img src="image/Rectangle 213.png" alt="1" class="sale__img">
                     <div class="sale__sub">
                         <p class="sale__paragraph">Asus E203NAH Intel Celeron 4GB RAM 128GB EMMC 11.6' Win 10</p>
                         <div class="sale__price">
                             <div>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                             </div>
                             <p class="sale__naira">₦ 116,588</p>
@@ -307,25 +292,25 @@
                 </div>
 
                 <div class="sale__item">
-                    <img src="{% static 'image/Rectangle 214.png' %}" alt="1" class="sale__img">
+                    <img src="image/Rectangle 214.png" alt="1" class="sale__img">
                     <div class="sale__sub">
                         <p class="sale__paragraph">WEYON 39" Inches LED TV +1 Years Warranty - Black</p>
                         <div class="sale__price">
                             <div>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                             </div>
                             <p class="sale__naira">₦ 116,588</p>
@@ -335,25 +320,25 @@
                 </div>
 
                 <div class="sale__item">
-                    <img src="{% static 'image/Rectangle 211.png' %}" alt="1" class="sale__img">
+                    <img src="image/Rectangle 211.png" alt="1" class="sale__img">
                     <div class="sale__sub">
                         <p class="sale__paragraph">6 Pairs Baby Booties Shoe Socks</p>
                         <div class="sale__price">
                             <div>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                                 <svg class="sale__svg">
-                                    <use xlink:href="{% static 'image/sprite.svg#icon-star' %}"></use>
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
                                 </svg>
                             </div>
                             <p class="sale__naira">₦ 116,588</p>
@@ -381,7 +366,7 @@
 
     <footer class="footer">
         <div class="footer__list">
-            <img src="{% static 'image/web.png' %}" alt="logo" class="footer__img" height="90rem">
+            <img src="image/web.png" alt="logo" class="footer__img" height="90rem">
 
             <div class="footer__item">
                 <h2 class="footer__h2">Product</h2>
@@ -423,13 +408,13 @@
             <p class="footer__paragraph">Connect with Us</p>
             <div>
                 <svg class="footer__svg">
-                    <use xlink:href="{% static 'image/sprite.svg#icon-instagram' %}"></use>
+                    <use xlink:href="image/sprite.svg#icon-instagram"></use>
                 </svg>
                 <svg class="footer__svg">
-                    <use xlink:href="{% static 'image/sprite.svg#icon-twitter' %}"></use>
+                    <use xlink:href="image/sprite.svg#icon-twitter"></use>
                 </svg>
                 <svg class="footer__svg">
-                    <use xlink:href="{% static 'image/sprite.svg#icon-facebook' %}"></use>
+                    <use xlink:href="image/sprite.svg#icon-facebook"></use>
                 </svg>
             </div>
         </div>
