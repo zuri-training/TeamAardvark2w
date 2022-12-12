@@ -1,0 +1,125 @@
+.aboutus {
+    padding: 0 5rem;
+
+    &-1 {
+        display: flex;
+        align-items: center;
+        
+
+        padding: 5rem 5rem;
+
+        &__paragraph {
+            width: 60rem;
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+
+        &__img {
+            width: 40%;
+            margin-right: 6rem;
+        }
+
+    }
+
+    &-2 {
+        padding: 5rem 0;
+
+        &__h2 {
+            text-align: center;
+            color: #182747;
+            font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        &__paragraph {
+            width: 60%;
+            margin: auto;
+            font-size: 1.6rem;
+        }
+    }
+
+    &-3 {
+
+        &__h2 {
+            text-align: center;
+            color: #182747;
+            font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        &__main {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &__img {
+            
+        }
+    }
+
+    &-4 {
+        padding: 5rem 0;
+        
+
+        &__h2 {
+            text-align: center;
+            color: #182747;
+            font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+
+        &__main {
+            
+        }
+
+        &__img {
+            
+        }
+    }
+
+    &-5 {
+        padding: 5rem 0;
+
+        &__h2 {
+            text-align: center;
+            color: #182747;
+            font-size: 4rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        &__paragraph {
+            width: 80%;
+            margin: auto;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        &__form {
+            width: 40%;
+            margin: auto;
+            margin-top: 2rem;
+        }
+
+        &__main {
+            display: flex;
+        }
+
+        &__input {
+            width: 80%;
+            padding: 1.6rem;
+            
+        }
+
+        &__span {
+            background-color: #182747;
+            color: #fff;
+            padding: 1.8rem;
+            font-size: 1.3rem;
+            border-radius: 0 .8rem .8rem 0;
+        }
+    }
+}

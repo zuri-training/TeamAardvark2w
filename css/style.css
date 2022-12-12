@@ -243,7 +243,7 @@ body {
       margin-right: 1rem; }
 
 .product {
-  padding: 2rem 5rem 0 5rem; }
+  padding: 2rem 5rem; }
   .product__center {
     width: 40%;
     margin: 0 auto;
@@ -266,6 +266,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end; }
+  .product__hero-p {
+    font-size: 1.4rem; }
 
 .pro {
   padding: 20rem 5rem; }
@@ -298,6 +300,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+
+#hero {
+  margin-left: 1rem;
+  padding: 1rem; }
 
 .deal {
   padding: 0 5rem 12rem 5rem;
@@ -340,6 +346,77 @@ body {
       padding: 1rem 2rem;
       font-size: 1.4rem;
       text-decoration: none; }
+
+.aboutus {
+  padding: 0 5rem; }
+  .aboutus-1 {
+    display: flex;
+    align-items: center;
+    padding: 5rem 5rem; }
+    .aboutus-1__paragraph {
+      width: 60rem;
+      font-size: 1.8rem;
+      font-weight: 500; }
+    .aboutus-1__img {
+      width: 40%;
+      margin-right: 6rem; }
+  .aboutus-2 {
+    padding: 5rem 0; }
+    .aboutus-2__h2 {
+      text-align: center;
+      color: #182747;
+      font-size: 2rem;
+      font-weight: 400;
+      letter-spacing: 2px; }
+    .aboutus-2__paragraph {
+      width: 60%;
+      margin: auto;
+      font-size: 1.6rem; }
+  .aboutus-3__h2 {
+    text-align: center;
+    color: #182747;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px; }
+  .aboutus-3__main {
+    display: flex;
+    justify-content: space-around; }
+  .aboutus-4 {
+    padding: 5rem 0; }
+    .aboutus-4__h2 {
+      text-align: center;
+      color: #182747;
+      font-size: 2rem;
+      font-weight: 400;
+      letter-spacing: 2px; }
+  .aboutus-5 {
+    padding: 5rem 0; }
+    .aboutus-5__h2 {
+      text-align: center;
+      color: #182747;
+      font-size: 4rem;
+      font-weight: bold;
+      letter-spacing: 2px; }
+    .aboutus-5__paragraph {
+      width: 80%;
+      margin: auto;
+      font-size: 1.6rem;
+      text-align: center; }
+    .aboutus-5__form {
+      width: 40%;
+      margin: auto;
+      margin-top: 2rem; }
+    .aboutus-5__main {
+      display: flex; }
+    .aboutus-5__input {
+      width: 80%;
+      padding: 1.6rem; }
+    .aboutus-5__span {
+      background-color: #182747;
+      color: #fff;
+      padding: 1.8rem;
+      font-size: 1.3rem;
+      border-radius: 0 .8rem .8rem 0; }
 
 .navigation {
   padding: 2rem 14% 2rem 4%;
