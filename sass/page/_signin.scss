@@ -105,6 +105,7 @@
     &__end a {
        color: #555FB9;
        text-decoration: none;
+       font-weight: bold;
     }
 
     &__forget {
@@ -120,6 +121,7 @@
 
         &--link {
             text-decoration: none;
+            font-weight: bold;
         }
 
         &--input {
