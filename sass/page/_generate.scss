@@ -1,0 +1,83 @@
+.generate {
+    padding: 5rem 5rem;
+ 
+ 
+    &__overall {
+         width: 70rem;
+         margin: 5rem auto;
+         text-align: center;
+    }
+ 
+    &__h2 {
+       font-size: 5rem;
+       font-weight: 700;
+       font-family: montserrat;
+    }
+ 
+    &__h3 {
+       font-size: 3rem;
+       margin-bottom: 3rem;
+    }
+ 
+    &__paragraph {
+        font-size: 2rem;
+    }
+ 
+    &__media {
+        margin: 6rem 0;
+    }
+ 
+    &__svg {
+         width: 1.5rem;
+         height: 1.5rem;
+    }
+ 
+    &__link {
+        text-decoration: none;
+        font-size: 1.6rem;
+        border: 1px solid #182747;
+        border-radius: 3px;
+        padding: 1.6rem;
+        color: #182747;
+        text-align: center;
+        
+ 
+ 
+        &:not(:last-child) {
+          margin-right: 2rem;
+        }
+    }
+ 
+    &__block {
+       width: 60rem;
+       margin: auto;
+    }
+ 
+    &__sub {
+       width: 100%;
+       margin-bottom: 2rem;
+    }
+
+ 
+    &__label {
+        width: 10rem;
+        font-size: 1.6rem;
+        color: #182747;
+        
+    }
+ 
+    
+ 
+    &__button {
+       width: 50%;
+       padding: 2rem;
+       background: #182747;
+       border-radius: 8px;
+       color:  #FFFFFE;
+       border: none;
+       cursor: pointer;
+    }
+ 
+   
+    
+ }
