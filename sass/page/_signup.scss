@@ -95,4 +95,16 @@
       border: none;
       cursor: pointer;
    }
+
+   &__end {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 1.4rem;
+   }
+
+   &__end a {
+      color: #555FB9;
+      text-decoration: none;
+   }
+   
 }

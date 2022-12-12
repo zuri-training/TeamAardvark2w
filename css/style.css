@@ -105,6 +105,91 @@ body {
     color: #FFFFFE;
     border: none;
     cursor: pointer; }
+  .signup__end {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.4rem; }
+  .signup__end a {
+    color: #555FB9;
+    text-decoration: none; }
+
+.signin {
+  padding: 10rem 5rem; }
+  .signin__overall {
+    width: 70rem;
+    margin: 0 auto;
+    text-align: center; }
+  .signin__h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: montserrat; }
+  .signin__h3 {
+    font-size: 3rem;
+    margin-bottom: 3rem; }
+  .signin__paragraph {
+    font-size: 2rem; }
+  .signin__media {
+    margin: 6rem 0; }
+  .signin__svg {
+    width: 1.5rem;
+    height: 1.5rem; }
+  .signin__link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    border: 1px solid #182747;
+    border-radius: 3px;
+    padding: 1.6rem;
+    color: #182747;
+    text-align: center; }
+    .signin__link:not(:last-child) {
+      margin-right: 2rem; }
+  .signin__block {
+    width: 60rem;
+    margin: auto; }
+  .signin__sub {
+    margin-bottom: 2rem; }
+  .signin__main {
+    display: flex;
+    align-items: center;
+    color: #070705;
+    font-size: 1.2rem; }
+  .signin__main input {
+    margin-right: 1rem; }
+  .signin__main a {
+    text-decoration: none; }
+  .signin__label {
+    width: 10rem;
+    font-size: 1.6rem;
+    color: #182747; }
+  .signin__input {
+    width: 100%;
+    padding: 1rem 1rem;
+    outline: none; }
+  .signin__button {
+    width: 100%;
+    padding: 2rem;
+    background: #182747;
+    border-radius: 8px;
+    color: #FFFFFE;
+    border: none;
+    cursor: pointer; }
+  .signin__end {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.4rem; }
+  .signin__end a {
+    color: #555FB9;
+    text-decoration: none; }
+  .signin__forget {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem; }
+    .signin__forget--paragraph {
+      margin-right: auto; }
+    .signin__forget--link {
+      text-decoration: none; }
+    .signin__forget--input {
+      margin-right: 1rem; }
 
 .navigation {
   padding: 2rem 14% 2rem 4%;
