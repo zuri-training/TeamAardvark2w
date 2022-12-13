@@ -12,6 +12,8 @@
     &__item {
         display: inline-block;
         padding: 0 2rem;
+
+        
     }
 
     &__link {
@@ -19,6 +21,10 @@
         color: #080D18;
         font-size: 1.4rem;
         font-weight: 400;
+
+        &:hover {
+            border-bottom: 2px solid #080D18;
+        }
     }
 
     

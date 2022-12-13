@@ -418,6 +418,24 @@ body {
       font-size: 1.3rem;
       border-radius: 0 .8rem .8rem 0; }
 
+.contactus {
+  position: relative; }
+  .contactus-1__img {
+    width: 100%; }
+  .contactus-1__main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center; }
+  .contactus-1__h1 {
+    font-size: 8rem;
+    font-weight: 700; }
+  .contactus-1__paragraph {
+    font-size: 3rem;
+    font-weight: 400; }
+
 .navigation {
   padding: 2rem 14% 2rem 4%;
   margin-top: 2rem;
@@ -434,6 +452,8 @@ body {
     color: #080D18;
     font-size: 1.4rem;
     font-weight: 400; }
+    .navigation__link:hover {
+      border-bottom: 2px solid #080D18; }
 
 .footer {
   background: #182747;
