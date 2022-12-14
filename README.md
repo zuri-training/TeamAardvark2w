@@ -8,7 +8,7 @@ PRICE COMPARE
 https://zuri-training.github.io/TeamAardvark2w/
 
 ## 🚀 About US
-PRODUCT DESIGNERS, FRONTEND AND BACKEND DEV.
+PRODUCT DESIGNERS, FRONTEND AND BACKEND DEV..
 
 
 
