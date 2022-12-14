@@ -9,9 +9,11 @@
 @import "page/product";
 @import "page/aboutus";
 @import "page/contactus";
+@import "page/faq";
 
 
 @import "abstract/variable";
+@import "abstract/mixin";
 
 @import "layout/navigation";
 @import "layout/footer";
