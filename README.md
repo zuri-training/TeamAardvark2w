@@ -4,7 +4,7 @@ A team working on Price comparison of items via different platforms
 # Project TITLE
 PRICE COMPARE
 
-## 🔗 Links
+## 🔗 Hosted link for the website
 https://zuri-training.github.io/TeamAardvark2w/
 
 ## 🚀 About US
