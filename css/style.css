@@ -618,7 +618,7 @@ body {
     margin: auto; }
   .hero__input {
     width: 90%;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem;
     font-size: 1.6rem;
     outline: none;
     border-radius: .8rem 0 0 .8rem;
@@ -638,7 +638,8 @@ body {
     justify-content: flex-end; }
   .hero__paragraph {
     font-size: 1.5rem;
-    color: #fff; }
+    color: #fff;
+    margin-right: 1rem; }
   .hero__option {
     color: #182747; }
   .hero__select {
@@ -646,6 +647,8 @@ body {
     background-color: transparent;
     border: 1px solid #FAFCFF;
     outline: none;
+    padding: 1.5rem;
+    color: #fff;
     border-radius: 8px; }
 
 .budget {
