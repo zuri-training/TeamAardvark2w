@@ -38,17 +38,17 @@ body {
   font-size: 1.4rem;
   display: inline-block;
   padding: 1rem 2rem;
-  border-radius: 2px;
-  border: 1px solid #080D18; }
+  border-radius: 8px;
+  border: 1px solid #182747; }
 
 .btn--1 {
   margin-right: 2rem;
-  background-color: #080D18;
+  background-color: #182747;
   color: #FFFFFE; }
 
 .btn--2 {
   background-color: #F5F5F5;
-  color: #080D18; }
+  color: #182747; }
 
 .heading-2 {
   font-size: 4rem;
@@ -555,11 +555,12 @@ body {
     list-style: none; }
   .navigation__item {
     display: inline-block;
-    padding: 0 2rem; }
+    padding: 0 2rem;
+    color: #080D18; }
   .navigation__link {
     text-decoration: none;
     color: #080D18;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 400; }
     .navigation__link:hover {
       border-bottom: 2px solid #080D18; }
