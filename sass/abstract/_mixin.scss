@@ -14,17 +14,20 @@
 
 // @mixin respond($breakpoint) {
 //     @if $breakpoint == phone {
-//         @media (max-width: 600px) { @content } ;
+//         @media (max-width: 37.5em) { @content};
 //     }
 
 //     @if $breakpoint == tab-port {
-//         @media (max-width: 900) { @content };
+//         @media (max-width: 37.5em) { @content};
 //     }
 
-//     @if $breakpoint == land-port {
-//         @media (max-width: 900) { @content };
+//     @if $breakpoint == tab-land {
+//         @media (max-width: 37.5em) { @content};
 //     }
-    
+
+//     @if $breakpoint == big-desktop {
+//         @media (max-width: 37.5em) { @content};
+//     }
 // }
 
 

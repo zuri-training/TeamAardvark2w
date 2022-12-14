@@ -8,18 +8,6 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box; }
-  @media (max-width: 37.5em) {
-    html {
-      font-size: 50%; } }
-  @media (max-width: 56.25em) {
-    html {
-      font-size: 60%; } }
-  @media (max-width: 75em) {
-    html {
-      font-size: 70%; } }
-  @media (min-width: 112.5em) {
-    html {
-      font-size: 80%; } }
 
 body {
   background-color: #fff; }
@@ -615,49 +603,46 @@ body {
     display: block; }
   .hero__center {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100rem;
-    line-height: 3; }
+    width: 100rem; }
   .hero__form {
-    display: flex;
-    position: relative; }
+    width: 50%;
+    margin: auto; }
   .hero__input {
-    width: 60%;
-    padding: 1.2rem;
+    width: 90%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
     outline: none;
-    border: none;
-    border-radius: 8px 0 0 8px; }
+    border-radius: .8rem 0 0 .8rem;
+    border: none; }
   .hero__span {
     background-color: #182747;
-    padding: .1px 2rem;
-    border-radius: 0 8px 8px 0;
-    position: absolute;
+    font-size: 2rem;
+    padding: 1.4rem;
     color: #FAFCFF;
-    font-size: 1.4rem;
-    cursor: pointer; }
-  .hero__last {
-    float: right;
-    margin-right: 15rem;
-    color: #fff;
-    display: flex; }
-    .hero__last input {
-      border: 1px solid #FAFCFF;
-      outline: none;
-      background-color: transparent;
-      border-radius: 2px; }
+    border-radius: 0 .8rem .8rem 0; }
+  .hero__field-1 {
+    display: flex;
+    margin-bottom: 2rem; }
+  .hero__field-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
   .hero__paragraph {
-    margin-right: 2rem;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    color: #fff; }
+  .hero__option {
+    color: #182747; }
 
 #hero {
   width: 20rem;
   background-color: transparent;
+  border: 1px solid #FAFCFF;
   outline: none;
+  color: #FAFCFF;
   border-radius: 8px; }
-  #hero:not(:first-child) {
-    color: #fff; }
 
 .budget {
   padding: 5rem; }

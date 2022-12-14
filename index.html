@@ -27,22 +27,27 @@
         <section class="hero">
             <img src="image/Hero Image.png" alt="hero" class="hero__img">
             <div class="hero__center">
-                <div class="u-center">
+                <div class="u-center mb-sm">
                     <h2 class="heading-2">Browse over a million products</h2>
                 </div>
-                <form action="#" class="u-center mb-sm" class="hero__form">
-                    <input type="text" class="hero__input" placeholder="Search for products"/>
-                    <span class="hero__span">Search</span>
+                <form action="#" class="hero__form">
+                    <div class="hero__field-1">
+                        <input type="text" class="hero__input">
+                        <span class="hero__span">Search</span>
+                    </div>
+
+                    <div class="hero__field-2">
+                        <p class="hero__paragraph">Sort By</p>
+                        <select name="latest" id="hero">
+                            <option class="hero__option" value="latest">Latest</option>
+                            <option class="hero__option" value="car">Car</option>
+                            <option class="hero__option" value="bag">Bag</option>
+                            <option class="hero__option" value="shoe">Shoe</option>
+                        </select>
+                    </div>
+                    
                 </form>
-                <div class="hero__last">
-                    <p class="hero__paragraph">Sort by</p>
-                    <select name="latest" id="hero">
-                        <option value="">Latest</option>
-                        <option value="">bags</option>
-                        <option value="">Car</option>
-                        <option value="">Camera</option>
-                    </select>
-                </div>
+                
             </div>
         </section>
 

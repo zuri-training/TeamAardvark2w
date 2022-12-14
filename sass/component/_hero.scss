@@ -9,70 +9,64 @@
 
     &__center {
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%,-50%);
         width: 100rem;
-        line-height: 3;
     }
 
     &__form {
-        display: flex;
-        position: relative;
+        width: 50%;
+        margin: auto;
     }
 
     &__input {
-        width: 60%;
-        padding: 1.2rem;
+        width: 90%;
+        padding: 1.5rem;
+        font-size: 1.6rem;
         outline: none;
+        border-radius: .8rem 0 0 .8rem;
         border: none;
-        border-radius: 8px 0 0 8px;
     }
 
     &__span {
         background-color: #182747;
-        padding: .1px 2rem;
-        border-radius: 0 8px 8px 0;
-        position: absolute;
+        font-size: 2rem;
+        padding: 1.4rem;
         color: $color-white;
-        font-size: 1.4rem;
-        cursor: pointer;
+        border-radius: 0 .8rem .8rem 0;
     }
 
+    &__field-1 {
+        display: flex;
+        margin-bottom: 2rem;
+    }
     
-
-    
-
-    &__last {
-        float: right;
-        margin-right: 15rem;
-        color: #fff;
-
-
-
+    &__field-2 {
         display: flex;
 
-        &  input {
-            border: 1px solid $color-white;
-            outline: none;
-            background-color: transparent;
-            border-radius: 2px;
-        }
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    
+    &__paragraph {
+        font-size: 1.5rem;
+        color: #fff;
     }
 
-    &__paragraph {
-        margin-right: 2rem;
-        font-size: 1.5rem;
+    &__option {
+        color: #182747;
     }
 }
 
 #hero {
     width: 20rem;
     background-color: transparent;
+    border: 1px solid $color-white;
     outline: none;
-    &:not(:first-child) {
-        color: #fff;
-    }
+    color: $color-white;
     
     border-radius: 8px;
+
 }
