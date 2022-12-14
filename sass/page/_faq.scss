@@ -3,8 +3,70 @@
     &-1 {
         position: relative;
 
+
         &__img {
             width: 100%;
+        }
+
+        &__main {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+            color: #fff;
+            
+        }
+
+        &__h1 {
+            font-size: 8rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+
+        &__form {
+            position: relative;
+
+            display: flex;
+            align-items: center;
+        }
+
+        &__input {
+            width: 80%;
+            padding: 1.5rem 4rem;
+            outline: none;
+           
+        }
+
+        &__svg {
+            width: 2rem;
+            height: 2rem;
+            fill: #292D32;
+            position: absolute;
+            top: 1.5rem;
+            left: 1rem;
+        }
+
+        &__span {
+            background-color: #182747;
+            padding: 2rem;
+            border-radius: 0 1rem 1rem 0;
+        }
+    }
+
+    &-2 {
+        width: 70%;
+        margin: 5rem auto;
+        text-align: center;
+
+        &__h2 {
+            font-size: 6rem;
+            font-weight: bold;
+        }
+
+        &__paragraph {
+            color: #182747;
+            font-size: 1.4rem;
         }
     }
 }
