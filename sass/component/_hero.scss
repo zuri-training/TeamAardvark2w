@@ -58,15 +58,16 @@
     &__option {
         color: #182747;
     }
-}
 
-#hero {
-    width: 20rem;
-    background-color: transparent;
-    border: 1px solid $color-white;
-    outline: none;
-    color: $color-white;
+    &__select {
+        width: 20rem;
+        background-color: transparent;
+        border: 1px solid $color-white;
+        outline: none;
+        
+        
+        border-radius: 8px;
     
-    border-radius: 8px;
-
+    }
 }
+

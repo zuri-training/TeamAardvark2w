@@ -1,10 +1,9 @@
 .product {
-    padding: 2rem 5rem;
+    padding: 0 5rem;
 
     &__center {
         width: 40%;
-        margin: 0 auto;
-        margin-top: 4rem;
+        margin: 4rem auto;
     }
 
 
@@ -39,13 +38,22 @@
 
     &__hero-p {
         font-size: 1.4rem;
+        margin-right: 1rem;
     }
 
+    &__select {
+        width: 20rem;
+        background-color: transparent;
+        outline: none;
+        padding: 1.5rem;
+        
+        border-radius: 8px;
+    }
     
 }
 
 .pro {
-    padding: 20rem 5rem;
+    padding: 8rem 5rem;
 
     
 

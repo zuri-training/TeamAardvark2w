@@ -245,11 +245,10 @@ body {
       margin-right: 1rem; }
 
 .product {
-  padding: 2rem 5rem; }
+  padding: 0 5rem; }
   .product__center {
     width: 40%;
-    margin: 0 auto;
-    margin-top: 4rem; }
+    margin: 4rem auto; }
   .product__form {
     display: flex;
     align-items: center; }
@@ -269,10 +268,17 @@ body {
     align-items: center;
     justify-content: flex-end; }
   .product__hero-p {
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    margin-right: 1rem; }
+  .product__select {
+    width: 20rem;
+    background-color: transparent;
+    outline: none;
+    padding: 1.5rem;
+    border-radius: 8px; }
 
 .pro {
-  padding: 20rem 5rem; }
+  padding: 8rem 5rem; }
   .pro__lit {
     display: flex;
     justify-content: space-between; }
@@ -635,14 +641,12 @@ body {
     color: #fff; }
   .hero__option {
     color: #182747; }
-
-#hero {
-  width: 20rem;
-  background-color: transparent;
-  border: 1px solid #FAFCFF;
-  outline: none;
-  color: #FAFCFF;
-  border-radius: 8px; }
+  .hero__select {
+    width: 20rem;
+    background-color: transparent;
+    border: 1px solid #FAFCFF;
+    outline: none;
+    border-radius: 8px; }
 
 .budget {
   padding: 5rem; }
