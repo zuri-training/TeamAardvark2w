@@ -1,12 +1,11 @@
 .navigation {
-    padding: 2rem 14% 2rem 4%;
-    margin-top: 2rem;
+    padding: 2rem 5% 2rem 5%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     &__list {
         list-style: none;
+        margin-right: 5rem;
     }
 
     &__item {
@@ -15,6 +14,10 @@
 
         color: #080D18;
         
+    }
+
+    &__img {
+        margin-right: 25rem;
     }
 
     &__link {

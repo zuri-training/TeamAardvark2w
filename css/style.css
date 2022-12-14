@@ -35,11 +35,13 @@ body {
 
 .btn:link, .btn:visited {
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   display: inline-block;
+  width: 10rem;
   padding: 1rem 2rem;
   border-radius: 8px;
-  border: 1px solid #182747; }
+  border: 1px solid #182747;
+  text-align: center; }
 
 .btn--1 {
   margin-right: 2rem;
@@ -546,17 +548,18 @@ body {
     font-size: 1.4rem; }
 
 .navigation {
-  padding: 2rem 14% 2rem 4%;
-  margin-top: 2rem;
+  padding: 2rem 5% 2rem 5%;
   display: flex;
-  justify-content: space-between;
   align-items: center; }
   .navigation__list {
-    list-style: none; }
+    list-style: none;
+    margin-right: 5rem; }
   .navigation__item {
     display: inline-block;
     padding: 0 2rem;
     color: #080D18; }
+  .navigation__img {
+    margin-right: 25rem; }
   .navigation__link {
     text-decoration: none;
     color: #080D18;
@@ -617,27 +620,23 @@ body {
     transform: translate(-50%, -50%);
     width: 100rem;
     line-height: 3; }
+  .hero__form {
+    display: flex;
+    position: relative; }
   .hero__input {
-    width: 70%;
+    width: 60%;
     padding: 1.2rem;
-    padding-left: 15rem;
-    outline: none; }
-  .hero__span--1 {
-    font-size: 1.4rem;
-    color: #fff;
-    background-color: #080D18;
-    padding: .1rem 3rem;
-    position: absolute;
-    right: 15rem;
-    border-radius: 0 4px 4px 0; }
-  .hero__span--2 {
-    font-size: 1.4rem;
-    color: #777;
+    outline: none;
     border: none;
-    padding: .2px 2rem;
+    border-radius: 8px 0 0 8px; }
+  .hero__span {
+    background-color: #182747;
+    padding: .1px 2rem;
+    border-radius: 0 8px 8px 0;
     position: absolute;
-    left: 15rem;
-    border-radius: 0 4px 4px 0; }
+    color: #FAFCFF;
+    font-size: 1.4rem;
+    cursor: pointer; }
   .hero__last {
     float: right;
     margin-right: 15rem;
@@ -649,26 +648,31 @@ body {
       background-color: transparent;
       border-radius: 2px; }
   .hero__paragraph {
-    margin-right: 2rem; }
+    margin-right: 2rem;
+    font-size: 1.5rem; }
 
 #hero {
   width: 20rem;
-  outline: none; }
+  background-color: transparent;
+  outline: none;
+  border-radius: 8px; }
+  #hero:not(:first-child) {
+    color: #fff; }
 
 .budget {
-  padding: 10rem 0; }
+  padding: 5rem; }
   .budget__overall {
-    width: 60rem;
-    margin: 0 auto;
+    width: 90rem;
+    margin: 2rem auto .4rem auto;
     text-align: center; }
   .budget__h2 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold; }
   .budget__paragraph {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-family: Montserrat;
-    font-weight: 700;
-    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 1.5;
     text-align: center; }
 
 .category {

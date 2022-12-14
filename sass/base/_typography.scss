@@ -2,11 +2,13 @@
     &:link,
     &:visited {
         text-decoration: none;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         display: inline-block;
+        width: 10rem;
         padding: 1rem 2rem;
         border-radius: 8px;
         border: 1px solid #182747;
+        text-align: center;
     }
 
     &--1 {

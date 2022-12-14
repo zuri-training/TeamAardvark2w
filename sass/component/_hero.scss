@@ -16,32 +16,32 @@
         line-height: 3;
     }
 
+    &__form {
+        display: flex;
+        position: relative;
+    }
+
     &__input {
-        width: 70%;
+        width: 60%;
         padding: 1.2rem;
-        padding-left: 15rem;
         outline: none;
-    }
-
-    &__span--1 {
-        font-size: 1.4rem;
-        color: #fff;
-        background-color: #080D18;
-        padding: .1rem 3rem;
-        position: absolute;
-        right: 15rem;
-        border-radius: 0 4px 4px 0;
-    }
-
-    &__span--2 {
-        font-size: 1.4rem;
-        color: #777;
         border: none;
-        padding: .2px 2rem;
-        position: absolute;
-        left: 15rem;
-        border-radius: 0 4px 4px 0;
+        border-radius: 8px 0 0 8px;
     }
+
+    &__span {
+        background-color: #182747;
+        padding: .1px 2rem;
+        border-radius: 0 8px 8px 0;
+        position: absolute;
+        color: $color-white;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    
+
+    
 
     &__last {
         float: right;
@@ -62,10 +62,17 @@
 
     &__paragraph {
         margin-right: 2rem;
+        font-size: 1.5rem;
     }
 }
 
 #hero {
     width: 20rem;
+    background-color: transparent;
     outline: none;
+    &:not(:first-child) {
+        color: #fff;
+    }
+    
+    border-radius: 8px;
 }
